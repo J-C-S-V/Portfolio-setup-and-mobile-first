@@ -1,13 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Lacquer&family=Poppins&display=swap');
-
+/* @import url('https://fonts.googleapis.com/css2?family=Lacquer&family=Poppins&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 * {
   margin: 0;
   padding: 0;
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
 }
 
-body {
-  background-image: url('./img/background_image.png');
+.main-section {
+  background-image: url('./img/background_image2.png');
+  /* background-size: 100%; */
+  background-size: cover;
+  /* background-repeat: no-repeat; */
+  /* background-position: center; */
+  /* background-attachment: fixed; */
 }
 
 a,
