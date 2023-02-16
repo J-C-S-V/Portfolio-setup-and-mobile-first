@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lacquer&family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lacquer&family=Poppins&display=swap');
 
 * {
   margin: 0;
@@ -10,18 +10,26 @@ body {
   background-image: url('./img/background_image.png');
 }
 
+/* 
+Delete bullets and underline 
+*/
+
 a,
 .second-section ul {
   text-decoration: none;
   list-style: none;
 }
 
+/* 
+Navbar section 
+*/
+
 .nav-bar {
   display: flex;
   padding: 20px;
   font-size: 0.8rem;
-  border: 2px solid rgb(200, 47, 47);
 }
+
 .nav-bar ul {
   flex: 1;
   display: flex;
@@ -39,13 +47,14 @@ a,
   font-weight: bold;
 }
 
+/* 
+Main section 
+*/
+
 .main-section {
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
-  /* align-items: center; */
   padding: 100px 25%;
-  border: 2px solid black;
 }
 
 .main-section > * {
@@ -60,9 +69,22 @@ a,
   color: #344563;
 }
 
+/* 
+second section
+*/
+
 .second-section ul {
   display: flex;
+  flex-direction: row;
   margin: 10px 0;
+}
+
+.second-section ul li {
+  padding: 5px;
+}
+
+.second-section ul li a img:hover {
+  color: rgb(97, 97, 240);
 }
 
 .second-section h3 {
