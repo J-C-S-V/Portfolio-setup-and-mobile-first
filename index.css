@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Lacquer&family=Poppins:wght@200&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-image: url('./img/background_image.png');
+}
+
+a,
+.second-section ul {
+  text-decoration: none;
+  list-style: none;
+}
+
+.nav-bar {
+  display: flex;
+  padding: 20px;
+  font-size: 0.8rem;
+  border: 2px solid rgb(200, 47, 47);
+}
+.nav-bar ul {
+  flex: 1;
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+}
+
+.nav-bar header {
+  flex: 3;
+}
+
+.nav-bar header {
+  color: #6070ff;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.main-section {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
+  padding: 100px 25%;
+  border: 2px solid black;
+}
+
+.main-section > * {
+  padding: 20px;
+}
+
+.main-section h1 {
+  font-weight: 900;
+  color: #091e42;
+}
+.main-section h3 {
+  color: #344563;
+}
+
+.second-section ul {
+  display: flex;
+  margin: 10px 0;
+}
+
+.second-section h3 {
+  color: #7f8cff;
+}
