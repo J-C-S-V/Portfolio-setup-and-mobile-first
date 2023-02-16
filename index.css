@@ -62,7 +62,7 @@ Main section
 .main-section {
   display: flex;
   flex-direction: column;
-  padding: 100px 25%;
+  margin: 5% 25%;
 }
 
 .main-section > * {
@@ -110,6 +110,6 @@ second section
     text-align: center;
   }
   .main-section {
-    padding: 0;
+    margin: 5% 5%;
   }
 }
