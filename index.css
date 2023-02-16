@@ -34,7 +34,6 @@ a,
   flex: 3;
   font-size: 18px;
   color: #6070ff;
-  font-size: 1rem;
   font-weight: bold;
 }
 
@@ -80,6 +79,9 @@ a,
 }
 
 @media all and (min-width: 375px) {
+  body {
+    font-size: 16px;
+  }
 }
 
 @media all and (max-width: 768px) {
@@ -90,6 +92,7 @@ a,
   .nav-bar header {
     text-align: center;
   }
+
   .main-section {
     margin: 5% 5%;
   }
