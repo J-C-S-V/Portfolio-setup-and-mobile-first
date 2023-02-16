@@ -1,24 +1,50 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Lacquer&family=Poppins&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
 }
 
-.main-section {
-  background-image: url('./img/background_image2.png');
-  /* background-size: 100%; */
-  background-size: cover;
-  /* background-repeat: no-repeat; */
-  /* background-position: center; */
-  /* background-attachment: fixed; */
-}
-
 a,
 .second-section ul {
   text-decoration: none;
   list-style: none;
+}
+
+body {
+  background-image: url('./img/header-shapes mobile.png');
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+}
+
+.main-section h1 {
+  font-weight: 700;
+  color: #172b4d;
+  font-size: 40px;
+  margin-top: 40px;
+}
+
+.main-section {
+  display: flex;
+  flex-direction: column;
+  margin: 5% 5%;
+}
+
+.main-section > * {
+  padding: 10px;
+}
+
+.main-section p {
+  color: #344563;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.second-section ul {
+  display: flex;
+  flex-direction: row;
+  margin: 10px 0;
 }
 
 .header-bar {
@@ -34,37 +60,10 @@ a,
   font-weight: bold;
 }
 
-.main-section h1 {
-  font-weight: 700;
-  color: #172b4d;
-  font-size: 40px;
-}
-
-.main-section {
-  display: flex;
-  flex-direction: column;
-  margin: 5% 25%;
-}
-
-.main-section > * {
-  padding: 20px;
-}
-
-.main-section p {
-  color: #344563;
-  font-size: 16px;
-  font-weight: 400;
-}
-
-.second-section ul {
-  display: flex;
-  flex-direction: row;
-  margin: 10px 0;
-}
-
 .second-section ul li {
   padding: 10px;
   margin-left: -10px;
+  margin-right: 15px;
 }
 
 .second-section ul li a img:hover {
@@ -74,6 +73,8 @@ a,
 .second-section h3 {
   color: #7f8cff;
   font-size: 16px;
+  margin: 20px auto;
+  font-weight: 500;
 }
 
 .header-bar div {
@@ -91,24 +92,4 @@ a,
   height: 2px;
   border-radius: 3px;
   background-color: #6070ff;
-}
-
-@media all and (min-width: 375px) {
-  body {
-    font-size: 16px;
-  }
-}
-
-@media all and (max-width: 768px) {
-  /* .header-bar ul {
-    display: none;
-  } */
-
-  /* .header-bar header {
-    text-align: center;
-  } */
-
-  .main-section {
-    margin: 5% 5%;
-  }
 }
