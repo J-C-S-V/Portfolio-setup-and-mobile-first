@@ -93,3 +93,51 @@ body {
   border-radius: 3px;
   background-color: #6070ff;
 }
+
+/* Cards */
+
+.main-container-projects {
+  display: grid;
+  border: 1px solid black;
+}
+
+.cards {
+  height: 552px;
+  border: 2px solid tomato;
+  margin: 10% 15% 10%;
+  border-radius: 16px;
+  background-color: #fff;
+}
+
+.main-img {
+  height: 35%;
+  margin: 16px;
+  border-radius: 8px;
+  background-color: tomato;
+}
+
+.cards article .horizontal-section {
+  display: flex;
+  justify-content: space-around;
+  background-color: yellow;
+}
+
+.skills {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.skills div {
+  padding: 4px 12px;
+  background-color: #ebebff;
+  color: #6070ff;
+}
+
+.see-project {
+  color: #396df2;
+  border: 1px solid #396df2;
+  padding: 16px;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 17px;
+}
