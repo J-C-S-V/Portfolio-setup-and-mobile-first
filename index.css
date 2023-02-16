@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+a,
+.second-section ul {
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  background-image: url('./img/header-shapes mobile.png');
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+}
+
+.main-section h1 {
+  font-weight: 700;
+  color: #172b4d;
+  font-size: 40px;
+  margin-top: 40px;
+}
+
+.main-section {
+  display: flex;
+  flex-direction: column;
+  margin: 5% 5%;
+}
+
+.main-section > * {
+  padding: 10px;
+}
+
+.main-section p {
+  color: #344563;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.second-section ul {
+  display: flex;
+  flex-direction: row;
+  margin: 10px 0;
+}
+
+.header-bar {
+  display: flex;
+  padding: 20px;
+  font-size: 15px;
+}
+
+.header-bar header {
+  flex: 3;
+  font-size: 18px;
+  color: #6070ff;
+  font-weight: bold;
+}
+
+.second-section ul li {
+  padding: 10px;
+  margin-left: -10px;
+  margin-right: 15px;
+}
+
+.second-section ul li a img:hover {
+  background-color: rgb(182, 182, 233);
+}
+
+.second-section h3 {
+  color: #7f8cff;
+  font-size: 16px;
+  margin: 20px auto;
+  font-weight: 500;
+}
+
+.header-bar div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 2px;
+  border-radius: 3px;
+  background: white;
+}
+
+.three-bar-menu span {
+  display: block;
+  width: 25px;
+  height: 2px;
+  border-radius: 3px;
+  background-color: #6070ff;
+}
