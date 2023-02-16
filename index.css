@@ -35,10 +35,12 @@ Navbar section
   display: flex;
   list-style: none;
   justify-content: space-around;
+  font-size: 15px;
 }
 
 .nav-bar header {
   flex: 3;
+  font-size: 18px;
 }
 
 .nav-bar header {
@@ -51,6 +53,12 @@ Navbar section
 Main section 
 */
 
+.main-section h1 {
+  font-weight: 900;
+  color: #091e42;
+  font-size: 48px;
+}
+
 .main-section {
   display: flex;
   flex-direction: column;
@@ -61,12 +69,10 @@ Main section
   padding: 20px;
 }
 
-.main-section h1 {
-  font-weight: 900;
-  color: #091e42;
-}
 .main-section h3 {
   color: #344563;
+  font-size: 20px;
+  font-weight: 400;
 }
 
 /* 
@@ -80,13 +86,30 @@ second section
 }
 
 .second-section ul li {
-  padding: 5px;
+  padding: 10px;
 }
 
 .second-section ul li a img:hover {
-  color: rgb(97, 97, 240);
+  background-color: rgb(182, 182, 233);
 }
 
 .second-section h3 {
   color: #7f8cff;
+  font-size: 16px;
+}
+
+@media all and (min-width: 375px) {
+}
+
+@media all and (max-width: 768px) {
+  .nav-bar ul {
+    display: none;
+  }
+
+  .nav-bar header {
+    text-align: center;
+  }
+  .main-section {
+    padding: 0;
+  }
 }
