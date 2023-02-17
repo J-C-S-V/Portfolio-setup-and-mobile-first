@@ -1,9 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
+body {
+  /* background-color: yellow; */
+}
 * {
   margin: 0;
   padding: 0;
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+.second-container {
+  margin: auto 10%;
 }
 
 .horizontal-section,
@@ -106,22 +113,26 @@ body {
 
 .main-container-projects {
   display: grid;
-  margin-top: 114px;
+  justify-content: center;
   background-color: #e5e5e5;
 }
 
 .cards {
-  height: 590px;
+  display: flex;
+  flex-direction: column;
+  height: 700px;
   border: 2px solid #dfe1e6;
-  margin: 10% 15% 10%;
+  margin: 114px 5% 15%;
   border-radius: 16px;
   background-color: white;
+  align-items: center;
 }
 
 .main-img {
   width: 295px;
-  margin: 16px;
+  margin-top: 25px;
   border-radius: 8px;
+  align-items: center;
 }
 
 .cards article .horizontal-section {
@@ -164,6 +175,7 @@ body {
   color: #344563;
   font-size: 15px;
   line-height: 24px;
+  max-width: 70%;
 }
 
 .see-project {
@@ -204,6 +216,7 @@ body {
   padding: 40px 40px;
   background-color: #fff;
   border-radius: 0 100px 0 0;
+  /* background-color: yellow; */
 }
 
 .about > * {
