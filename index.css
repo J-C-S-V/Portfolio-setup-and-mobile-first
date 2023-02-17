@@ -68,6 +68,10 @@ body {
   font-weight: bold;
 }
 
+.socials li {
+  padding: 15px;
+}
+
 .second-section ul li {
   padding: 10px;
   margin-left: -10px;
@@ -200,10 +204,6 @@ body {
 
 .socials {
   display: flex;
-}
-
-.socials li {
-  padding: 15px;
 }
 
 .see-resume {
