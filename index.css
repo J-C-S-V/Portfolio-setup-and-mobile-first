@@ -264,10 +264,14 @@ body {
   padding: 10px;
 }
 
-.languages {
+.languages,
+hr {
   display: flex;
   justify-content: space-between;
   margin: 0 20px 0;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
 }
 
 .languages span {
@@ -279,6 +283,12 @@ body {
   align-items: center;
   margin: 12px 20px;
   background-color: #f7f7f9;
+  color: #253858;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  width: 303px;
+  height: 66.72px;
 }
 
 .skills-boxed img {
