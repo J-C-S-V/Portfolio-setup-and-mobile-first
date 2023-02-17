@@ -184,6 +184,14 @@ body {
   cursor: pointer;
 }
 
+.see-project:active {
+  background-color: #2230d2;
+}
+
+.see-project:disabled {
+  color: #5e6c84;
+}
+
 .horizontal-section span {
   font-weight: 600;
 }
@@ -205,6 +213,7 @@ body {
 .about h2 {
   font-size: 40px;
   color: #172b4d;
+  margin-top: 74px;
 }
 
 .about p {
@@ -233,6 +242,10 @@ body {
   border-radius: 8px;
   color: #fff;
   cursor: pointer;
+}
+
+.see-resume:active {
+  background-color: #2230d2;
 }
 
 .about h3 {
