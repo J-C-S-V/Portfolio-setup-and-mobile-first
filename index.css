@@ -179,14 +179,22 @@ article p,
   display: flex;
   flex-direction: column;
   /* height: 300px; */
-
   padding: 40px 0;
   margin: auto 15%;
-  background-color: tomato;
+  /* background-color: tomato; */
 }
 
 .about > * {
   margin: 5px 0;
+}
+
+.about h2 {
+  font-size: 40px;
+  color: #172b4d;
+}
+
+.about p {
+  color: #344563;
 }
 
 .socials {
@@ -201,7 +209,7 @@ article p,
   color: #396df2;
   border: 1px solid #396df2;
   background-color: white;
-  padding: 16px;
+  padding: 10px 16px;
   border-radius: 10px;
   font-weight: 500;
   font-size: 17px;
@@ -213,16 +221,49 @@ article p,
   font-weight: 500;
 }
 
+.about h4 {
+  color: black;
+  font-size: 20px;
+  font-weight: 500;
+}
+
 .see-resume {
   width: 50%;
   margin-bottom: 70px;
 }
 
+.languages-main-container > * {
+  padding: 10px;
+}
+
 .languages {
   display: flex;
   justify-content: space-between;
+  margin: 0 20px 0;
 }
 
 .languages span {
-  color: #acb7c3;
+  color: #154b84;
+}
+
+.skills-boxed {
+  display: flex;
+  align-items: center;
+  margin: 12px 20px;
+  background-color: #f7f7f9;
+}
+
+.skills-boxed img {
+  margin: 0 20px 0;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #dfe1e6;
+  height: 1px;
+}
+
+.frameworks-skills {
+  display: flex;
+  justify-content: space-between;
 }
