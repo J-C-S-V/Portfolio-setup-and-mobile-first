@@ -169,6 +169,11 @@ article p,
   background-color: white;
 }
 
+.see-project:hover {
+  background-color: #93aae3;
+  cursor: pointer;
+}
+
 .horizontal-section span {
   font-weight: 600;
 }
@@ -178,8 +183,9 @@ article p,
 .about {
   display: flex;
   flex-direction: column;
-  padding: 40px 0;
-  margin: auto 15%;
+  padding: 40px 40px;
+  background-color: #fff;
+  border-radius: 0 100px 0 0;
 }
 
 .about > * {
@@ -211,6 +217,11 @@ article p,
   border-radius: 10px;
   font-weight: 500;
   font-size: 17px;
+}
+
+.see-resume:hover {
+  background-color: #93aae3;
+  cursor: pointer;
 }
 
 .about h3 {
