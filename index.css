@@ -76,6 +76,14 @@ body {
   padding: 15px;
 }
 
+.skills li {
+  padding: 4px 12px;
+  border-radius: 8px;
+  margin: 5px;
+  background-color: #ebebff;
+  color: #6070ff;
+}
+
 .second-section ul li {
   padding: 10px;
   margin-left: -10px;
@@ -143,14 +151,6 @@ body {
   display: flex;
   justify-content: flex-start;
   margin-left: 10px;
-}
-
-.skills li {
-  padding: 4px 12px;
-  border-radius: 8px;
-  margin: 5px;
-  background-color: #ebebff;
-  color: #6070ff;
 }
 
 .second-container button,
