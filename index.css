@@ -147,9 +147,8 @@ body {
   margin-left: 10px;
 }
 
-.skills {
-  display: flex;
-  justify-content: flex-start;
+.skills > * {
+  float: left;
   margin-left: 10px;
 }
 
