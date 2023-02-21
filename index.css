@@ -335,8 +335,8 @@ hr {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 103px 24px 0px;
-  border-radius: 87px 0px 0px 0px;
+  padding: 103px 24px 1px;
+  border-radius: 87px 1px 1px 1px;
   background-color: #6070ff;
   background-image: url('./img/background_form.png');
   background-size: 70%;
