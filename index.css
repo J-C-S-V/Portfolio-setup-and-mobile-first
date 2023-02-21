@@ -6,6 +6,12 @@
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 .second-container {
   margin: auto 10%;
 }
@@ -318,7 +324,52 @@ hr {
   display: flex;
   justify-content: space-between;
 }
-
 .bullet-img {
   border-radius: 50%;
+}
+
+/* Footer section */
+
+.form-footer > * {
+  width: 100%;
+}
+
+.form-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 103px 40px;
+  border-radius: 87px 0px 0px 0px;
+  background-color: #6070ff;
+  background-image: url('./img/background_form.png');
+  background-size: 70%;
+  background-position: 110px 10px;
+  background-repeat: no-repeat;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-footer h2 {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 52px;
+  text-align: center;
+  margin-bottom: 12px;
+}
+.form-footer p {
+  color: #ebebff;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 87px;
+}
+
+.form-container > * {
+  margin-bottom: 20px;
+  width: 100%;
 }
