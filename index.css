@@ -330,15 +330,11 @@ hr {
 
 /* Footer section */
 
-.form-footer > * {
-  width: 100%;
-}
-
 .form-footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 103px 24px 44px;
+  padding: 103px 24px 0;
   border-radius: 87px 0px 0px 0px;
   background-color: #6070ff;
   background-image: url('./img/background_form.png');
@@ -347,10 +343,8 @@ hr {
   background-repeat: no-repeat;
 }
 
-.form-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.form-footer > * {
+  width: 100%;
 }
 
 .form-footer h2 {
@@ -371,14 +365,23 @@ hr {
   text-align: center;
 }
 
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .form-container > * {
   margin-bottom: 20px;
+  padding: 20px 20px;
+  border-radius: 8px;
+  border: 1px solid #fff;
   width: 100%;
 }
 
 .contact-form-button {
   align-self: start;
-  color: #396df2;
+  color: #6070ff;
   border: 1px solid #396df2;
   background-color: white;
   padding: 12px 16px;
@@ -400,4 +403,14 @@ hr {
 
 .contact-form-button:active {
   background-color: #2230d2;
+}
+
+.bottom-line {
+  width: 154px;
+  height: 5px;
+  background-color: #0d151e;
+  border: #0d151e;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding: 0;
 }
