@@ -139,7 +139,7 @@ body {
   align-items: center;
 }
 
-.main-img {
+.main-img img {
   width: 295px;
   margin-top: 25px;
   border-radius: 8px;
@@ -216,13 +216,12 @@ body {
 .about {
   display: flex;
   flex-direction: column;
-  padding: 40px 40px;
   background-color: #fff;
   border-radius: 0 100px 0 0;
 }
 
 .about > * {
-  margin: 5px 0;
+  margin: 0 5%;
 }
 
 .about h2 {
