@@ -468,4 +468,32 @@ hr {
   li:last-child {
     padding-right: 154px;
   }
+  .card-1 {
+    flex-direction: row;
+    height: 500px;
+  }
+
+  .card-1 .second-container {
+    margin-left: 0;
+  }
+  .card-1 .second-container p {
+    max-width: 100%;
+  }
+
+  .main-img img {
+    width: 400px;
+    height: 400px;
+    margin-left: 14px;
+    margin-top: 0;
+  }
+
+  .cards article .horizontal-section {
+    justify-content: flex-start;
+  }
+  .horizontal-section > * {
+    padding-right: 10px;
+    margin-left: 0;
+  }
+  .skills:last-child {
+  }
 }
