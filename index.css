@@ -445,8 +445,27 @@ hr {
     align-items: center;
   }
 
+  .header-bar header {
+    padding-left: 100px;
+  }
+
   .nav-bar-list {
     display: flex;
     justify-content: space-between;
+  }
+  .ul-desk {
+    display: flex;
+  }
+  li {
+    padding: 0 20px;
+  }
+  li a {
+    color: #344563;
+    font-weight: 500;
+    font-size: 15px;
+  }
+
+  li:last-child {
+    padding-right: 154px;
   }
 }
