@@ -6,6 +6,12 @@
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 .second-container {
   margin: auto 10%;
 }
@@ -133,7 +139,7 @@ body {
   align-items: center;
 }
 
-.main-img {
+.main-img img {
   width: 295px;
   margin-top: 25px;
   border-radius: 8px;
@@ -210,13 +216,12 @@ body {
 .about {
   display: flex;
   flex-direction: column;
-  padding: 40px 40px;
   background-color: #fff;
   border-radius: 0 100px 0 0;
 }
 
 .about > * {
-  margin: 5px 0;
+  margin: 0 5%;
 }
 
 .about h2 {
@@ -321,4 +326,91 @@ hr {
 
 .bullet-img {
   border-radius: 50%;
+}
+
+/* Footer section */
+
+.form-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 103px 24px 1px;
+  border-radius: 87px 1px 1px 1px;
+  background-color: #6070ff;
+  background-image: url('./img/background_form.png');
+  background-size: 70%;
+  background-position: 110px 10px;
+  background-repeat: no-repeat;
+}
+
+.form-footer > * {
+  width: 100%;
+}
+
+.form-footer h2 {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 52px;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.form-footer p {
+  color: #ebebff;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-container > * {
+  margin-bottom: 20px;
+  padding: 20px 20px;
+  border-radius: 8px;
+  border: 1px solid #fff;
+  width: 100%;
+}
+
+.contact-form-button {
+  align-self: start;
+  color: #6070ff;
+  border: 1px solid #396df2;
+  background-color: white;
+  padding: 12px 16px;
+  border-radius: 8px;
+  font-weight: 500;
+  line-height: 24px;
+  font-size: 17px;
+  width: 142px;
+  margin-bottom: 45px;
+}
+
+.contact-form-button:hover {
+  background-color: #6070ff;
+  box-shadow: 1px 8px 16px rgba(64, 83, 252, 0.24);
+  border-radius: 8px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.contact-form-button:active {
+  background-color: #2230d2;
+}
+
+.bottom-line {
+  width: 154px;
+  height: 5px;
+  background-color: #0d151e;
+  border: #0d151e;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding: 0;
 }
