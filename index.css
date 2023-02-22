@@ -415,11 +415,15 @@ hr {
   padding: 0;
 }
 
-.header-bar-desk {
+.nav-bar-desk {
   display: none;
 }
 
 @media screen and (min-width: 768px) {
+  .nav-bar-desk {
+    display: flex;
+  }
+
   .main-section {
     display: flex;
     flex-direction: column;
