@@ -505,4 +505,22 @@ hr {
   .card-4 .main-img {
     order: 1;
   }
+
+  .about {
+    display: flex;
+    flex-direction: row;
+    margin-right: 0;
+  }
+  .about-section-1 {
+    flex: 1;
+  }
+  .about-section-2 {
+    padding-top: 80px;
+    flex: 2;
+  }
+
+  .skills-images ul {
+    display: flex;
+    flex-direction: row;
+  }
 }
