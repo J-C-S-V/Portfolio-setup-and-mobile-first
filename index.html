@@ -10,6 +10,17 @@
   <body>
     <header class="header-bar">
       <header>My logo</header>
+      <!-- Desktop start -->
+
+      <nav class="nav-bar-desk">
+        <ul class="ul-desk">
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <!-- Desktop end -->
+
       <div class="three-bar-menu">
         <span></span>
         <span></span>
@@ -163,105 +174,116 @@
       </div>
       <!-- About section -->
       <section class="about">
-        <h2>
-          About <br />
-          Myself
-        </h2>
-        <p>
-          Hello I'm a software developer! I can help you build a product ,
-          feature or website Look through some of my work and experience! If you
-          like what you see and have a project you need coded, don't hestiate to
-          contact me.
-        </p>
-        <h3>LET'S CONNECT</h3>
-        <ul class="socials">
-          <li>
-            <a href="https://github.com/J-C-S-V"
-              ><img src="./img/github.svg" alt="twitter logo"
-            /></a>
-          </li>
-          <li>
-            <a
-              href="https://www.linkedin.com/in/juan-carlos-sanchez-vargas-a308b014b/"
-              ><img src="./img/Linkedin icon.svg" alt="linkedin logo"
-            /></a>
-          </li>
-          <li>
-            <a href="https://angel.co/"
-              ><img src="./img/angellist.svg" alt="angel logo"
-            /></a>
-          </li>
-          <li>
-            <a href="https://twitter.com/home"
-              ><img src="./img/twitter.svg" alt="twitter logo"
-            /></a>
-          </li>
-          <li>
-            <a href="https://medium.com/"
-              ><img src="./img/medium.svg" alt="medium logo"
-            /></a>
-          </li>
-        </ul>
-        <button class="see-resume">Get my resume</button>
-        <ul class="languages-main-container">
-          <li class="languages">Languages<span>˅</span></li>
-          <ul>
-            <li class="skills-boxed">
-              <img src="/img/JS.png" alt="Javascript" />JavaScript
+        <section class="about-section-1">
+          <h2>
+            About <br />
+            Myself
+          </h2>
+          <p>
+            Hello I'm a software developer! I can help you build a product ,
+            feature or website Look through some of my work and experience! If
+            you like what you see and have a project you need coded, don't
+            hestiate to contact me.
+          </p>
+          <h3>LET'S CONNECT</h3>
+          <ul class="socials">
+            <li>
+              <a href="https://github.com/J-C-S-V"
+                ><img src="./img/github.svg" alt="twitter logo"
+              /></a>
             </li>
-            <li class="skills-boxed">
-              <img src="/img/HTML.png" alt="HTML" />HTML
+            <li>
+              <a
+                href="https://www.linkedin.com/in/juan-carlos-sanchez-vargas-a308b014b/"
+                ><img src="./img/Linkedin icon.svg" alt="linkedin logo"
+              /></a>
             </li>
-            <li class="skills-boxed">
-              <img src="/img/CSS3.png" alt="CSS3" />CSS
+            <li>
+              <a href="https://angel.co/"
+                ><img src="./img/angellist.svg" alt="angel logo"
+              /></a>
+            </li>
+            <li>
+              <a href="https://twitter.com/home"
+                ><img src="./img/twitter.svg" alt="twitter logo"
+              /></a>
+            </li>
+            <li>
+              <a href="https://medium.com/"
+                ><img src="./img/medium.svg" alt="medium logo"
+              /></a>
             </li>
           </ul>
-          <li class="languages">Frameworks<span>></span></li>
-          <hr />
+          <button class="see-resume">Get my resume</button>
+        </section>
+        <!-- Skills section -->
+        <section class="about-section-2">
+          <ul class="languages-main-container">
+            <li class="languages">Languages<span>˅</span></li>
+            <ul class="skills-images">
+              <li class="skills-boxed">
+                <img src="/img/JS.png" alt="Javascript" />JavaScript
+              </li>
+              <li class="skills-boxed">
+                <img src="/img/HTML.png" alt="HTML" />HTML
+              </li>
+              <li class="skills-boxed">
+                <img src="/img/CSS3.png" alt="CSS3" />CSS
+              </li>
+            </ul>
+            <li class="languages">Frameworks<span>></span></li>
+            <hr />
 
-          <li class="languages">Skills<span>></span></li>
-          <hr />
-        </ul>
+            <li class="languages">Skills<span>></span></li>
+            <hr />
+          </ul>
+        </section>
       </section>
     </section>
     <footer class="form-footer">
-      <h2>Contact me</h2>
-      <p>
-        If you have an application you are interested in developing, a feature
-        that you need built or a project that needs coding. I'd love to help
-        with it
-      </p>
-      <form
-        class="form-container"
-        action="https://formspree.io/f/mbjeozld"
-        method="post"
-      >
-        <input
-          type="text"
-          name="name"
-          id="name"
-          placeholder="Full name"
-          maxlength="30"
-          required
-        />
-        <input
-          type="email"
-          name="email"
-          id="email"
-          placeholder="Email address"
-          required
-        />
-        <textarea
-          name="message"
-          id="message"
-          rows="7"
-          placeholder="Write your message here"
-          maxlength="500"
-          required
-        ></textarea>
-        <button class="contact-form-button" type="submit">Get in touch</button>
-        <span class="bottom-line"></span>
-      </form>
+      <section class="form-container-1">
+        <h2>Contact me</h2>
+        <p>
+          If you have an application you are interested in developing, a feature
+          that you need built or a project that needs coding. I'd love to help
+          with it
+        </p>
+      </section>
+      <section class="form-container-2">
+        <form
+          class="form-container"
+          action="https://formspree.io/f/mbjeozld"
+          method="post"
+        >
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Full name"
+            maxlength="30"
+            required
+          />
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Email address"
+            required
+          />
+          <textarea
+            name="message"
+            id="message"
+            rows="7"
+            placeholder="Write your message here"
+            maxlength="500"
+            required
+          ></textarea>
+          <button class="contact-form-button" type="submit">
+            Get in touch
+          </button>
+          <span class="bottom-line"></span>
+        </form>
+      </section>
     </footer>
   </body>
 </html>
