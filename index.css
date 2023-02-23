@@ -466,22 +466,23 @@ hr {
   }
 
   li:last-child {
-    padding-right: 154px;
+    padding-right: 12px;
   }
-  .card-1 {
+  .cards {
     flex-direction: row;
-    height: 500px;
+    height: 452px;
   }
 
-  .card-1 .second-container {
+  .cards .second-container {
     margin-left: 0;
+    margin-right: 0;
   }
-  .card-1 .second-container p {
+  .cards .second-container p {
     max-width: 100%;
   }
 
   .main-img img {
-    width: 400px;
+    width: 465px;
     height: 400px;
     margin-left: 14px;
     margin-top: 0;
@@ -494,6 +495,8 @@ hr {
     padding-right: 10px;
     margin-left: 0;
   }
-  .skills:last-child {
+
+  .cards {
+    margin: 114px 8% 15%;
   }
 }
