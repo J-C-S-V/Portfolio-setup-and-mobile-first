@@ -31,10 +31,11 @@ li,
 }
 
 body {
-  background-image: url('./img/header-shapes mobile.svg');
+  background-image: url('./img/header-shapes mobile.png');
   background-repeat: no-repeat;
   background-position-y: top;
-  background-size: cover;
+  background-size: 100%;
+  background-position: 0px 14px;
 }
 
 .main-section h1 {
@@ -338,9 +339,9 @@ hr {
   padding: 103px 24px 1px;
   border-radius: 87px 1px 1px 1px;
   background-color: #6070ff;
-  background-image: url('./img/background_form.svg');
-  background-size: 90%;
-  background-position: 93px 60px;
+  background-image: url('./img/form_shapes_mobile.png');
+  background-size: 48%;
+  background-position: 214px 31px;
   background-repeat: no-repeat;
 }
 
@@ -438,6 +439,7 @@ hr {
   }
 
   body {
+    background-image: url('form background_desktop.png')
     background-size: 95%;
     background-position-y: 60px;
     background-position-x: 34.6px;
