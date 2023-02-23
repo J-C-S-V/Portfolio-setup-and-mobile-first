@@ -34,6 +34,7 @@ body {
   background-image: url('./img/header-shapes mobile.svg');
   background-repeat: no-repeat;
   background-position-y: top;
+  background-size: cover;
 }
 
 .main-section h1 {
@@ -337,9 +338,9 @@ hr {
   padding: 103px 24px 1px;
   border-radius: 87px 1px 1px 1px;
   background-color: #6070ff;
-  background-image: url('./img/background_form.png');
-  background-size: 70%;
-  background-position: 110px 10px;
+  background-image: url('./img/background_form.svg');
+  background-size: 90%;
+  background-position: 93px 60px;
   background-repeat: no-repeat;
 }
 
@@ -550,8 +551,11 @@ hr {
     display: flex;
     flex-direction: column;
     align-items: stretch;
-    width: 59%;
-    height: 50%;
+    width: 45%;
+  }
+
+  .form-container-1 {
+    margin-top: 10%;
   }
 
   .contact-form-button {
@@ -563,6 +567,11 @@ hr {
   }
 
   .form-container-2 {
-    width: 500px;
+    width: 450px;
+    margin-bottom: 5%;
+  }
+
+  .form-container > * {
+    border-radius: 2px;
   }
 }
