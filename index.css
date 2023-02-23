@@ -543,4 +543,22 @@ hr {
     padding-left: 2px;
     padding-right: 2px;
   }
+  .form-container-1,
+  .form-container-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 59%;
+    height: 50%;
+  }
+  .contact-form-button {
+    align-self: center;
+  }
+
+  .bottom-line {
+    display: none;
+  }
+  .form-container-2 {
+    width: 500px;
+  }
 }
