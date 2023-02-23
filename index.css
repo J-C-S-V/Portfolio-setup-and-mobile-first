@@ -505,10 +505,6 @@ hr {
     margin-left: 0;
   }
 
-  .cards {
-    margin: 114px 8% 15%;
-  }
-
   .card-2 .main-img,
   .card-4 .main-img {
     order: 1;
