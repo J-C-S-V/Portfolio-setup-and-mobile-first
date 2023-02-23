@@ -78,6 +78,8 @@ body {
   font-size: 18px;
   color: #6070ff;
   font-weight: bold;
+  transform: rotate(-360deg);
+  transform: rotate(-180deg);
 }
 
 .socials li {
@@ -588,5 +590,3 @@ hr {
     border-radius: 2px;
   }
 }
-
-/* Media queries for tablet view */
