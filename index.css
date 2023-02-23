@@ -445,9 +445,9 @@ hr {
   }
 
   .form-footer {
-    background-image: url('./img/form_shapes_desktop.png');
-    /* background-size: 48%;
-    background-position: 214px 31px; */
+    background-image: url('./img/form_background_desktop.png');
+    background-size: 89%;
+    background-position: 73px 128px;
     background-repeat: no-repeat;
   }
 
@@ -487,7 +487,7 @@ hr {
   .cards {
     flex-direction: row;
     height: 452px;
-    margin: 114px 8% 15%;
+    margin: 114px 8% 2%;
   }
 
   .cards .second-container {
