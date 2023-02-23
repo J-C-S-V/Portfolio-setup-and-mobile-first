@@ -158,6 +158,6 @@ I would like to thank Microverse
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](https://github.com/J-C-S-V/Portfolio-setup-and-mobile-first/blob/desktop-version/license.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
