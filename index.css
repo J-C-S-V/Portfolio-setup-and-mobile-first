@@ -35,7 +35,7 @@ body {
   background-repeat: no-repeat;
   background-position-y: top;
   background-size: 100%;
-  background-position: 0px 14px;
+  background-position: 0 14px;
 }
 
 .main-section h1 {
@@ -141,18 +141,22 @@ body {
   align-items: center;
 }
 
+.main-img {
+  display: flex;
+  justify-content: center;
+}
+
 .main-img img {
-  width: 295px;
+  width: 90%;
   margin-top: 25px;
   border-radius: 8px;
-  align-items: center;
 }
 
 .cards article .horizontal-section {
   display: flex;
   justify-content: space-around;
   color: #344563;
-  margin-left: 10px;
+  margin: 14px;
 }
 
 .skills {
@@ -341,7 +345,7 @@ hr {
   background-color: #6070ff;
   background-image: url('./img/form_shapes_mobile.png');
   background-size: 48%;
-  background-position: 214px 31px;
+  background-position: 194px 31px;
   background-repeat: no-repeat;
 }
 
@@ -507,6 +511,7 @@ hr {
 
   .cards article .horizontal-section {
     justify-content: flex-start;
+    gap: 10px;
   }
 
   .horizontal-section > * {
