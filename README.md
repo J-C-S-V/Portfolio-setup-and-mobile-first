@@ -8,6 +8,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+    - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -48,7 +49,6 @@
   </ul>
 </details>
 
-
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
@@ -59,6 +59,13 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link](https://j-c-s-v.github.io/Portfolio-setup-and-mobile-first/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
@@ -77,7 +84,6 @@ Clone this repository to your desired folder:
 https
 cd my-folder
 git clone https://github.com/J-C-S-V/hello_microverse_project.git
-
 
 ### Install
 
@@ -139,7 +145,6 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-
 If you like this project give me a star 🤓
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -148,16 +153,14 @@ If you like this project give me a star 🤓
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-
 I would like to thank Microverse
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 <!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/J-C-S-V/Portfolio-setup-and-mobile-first/blob/desktop-version/license.md) licensed.
+This project is [MIT](https://github.com/J-C-S-V/Portfolio-setup-and-mobile-first/blob/main/license.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
