@@ -76,18 +76,18 @@ body {
 .header-bar header {
   flex: 3;
   font-size: 18px;
-  color: #6070ff;
+  color: #5050f5;
   font-weight: bold;
-  animation: rotate 1s linear;
+  animation: rotate 3s linear;
 }
 
 @keyframes rotate {
   0% {
-    transform: rotate(180deg);
+    transform: scale(2, 2);
   }
 
   100% {
-    transform: rotate(360deg);
+    transform: scale(1, 1);
   }
 }
 
@@ -100,7 +100,7 @@ body {
   border-radius: 8px;
   margin: 5px;
   background-color: #ebebff;
-  color: #6070ff;
+  color: #5050f5;
 }
 
 .second-section ul li {
@@ -110,7 +110,7 @@ body {
 }
 
 .second-section h3 {
-  color: #7f8cff;
+  color: #6060ff;
   font-size: 16px;
   margin: 20px auto;
   font-weight: 500;
@@ -130,7 +130,7 @@ body {
   width: 25px;
   height: 2px;
   border-radius: 3px;
-  background-color: #6070ff;
+  background-color: #5050f5;
 }
 
 /* Cards */
@@ -199,7 +199,7 @@ body {
 }
 
 .see-project {
-  color: #6070ff;
+  color: #5050f5;
   border: 1px solid #396df2;
   padding: 16px;
   border-radius: 10px;
@@ -209,7 +209,7 @@ body {
 }
 
 .see-project:hover {
-  background-color: #6070ff;
+  background-color: #5050f5;
   box-shadow: 1px 8px 16px rgba(64, 83, 252, 0.24);
   border-radius: 8px;
   color: #fff;
@@ -268,7 +268,7 @@ body {
 }
 
 .see-resume:hover {
-  background-color: #6070ff;
+  background-color: #5050f5;
   box-shadow: 1px 8px 16px rgba(64, 83, 252, 0.24);
   border-radius: 8px;
   color: #fff;
@@ -280,7 +280,7 @@ body {
 }
 
 .about h3 {
-  color: #7f8cff;
+  color: #6060ff;
   font-size: 16px;
   font-weight: 500;
 }
@@ -353,7 +353,7 @@ hr {
   align-items: center;
   padding: 103px 24px 1px;
   border-radius: 87px 1px 1px 1px;
-  background-color: #6070ff;
+  background-color: #5050f5;
   background-image: url('./img/form_shapes_mobile.png');
   background-size: 48%;
   background-position: 194px 31px;
@@ -374,7 +374,7 @@ hr {
 }
 
 .form-footer p {
-  color: #ebebff;
+  color: #fff;
   font-size: 20px;
   font-weight: 400;
   line-height: 28px;
@@ -398,7 +398,7 @@ hr {
 
 .contact-form-button {
   align-self: start;
-  color: #6070ff;
+  color: #5050f5;
   border: 1px solid #396df2;
   background-color: white;
   padding: 12px 16px;
@@ -411,7 +411,7 @@ hr {
 }
 
 .contact-form-button:hover {
-  background-color: #6070ff;
+  background-color: #5050f5;
   box-shadow: 1px 8px 16px rgba(64, 83, 252, 0.24);
   border-radius: 8px;
   color: #fff;

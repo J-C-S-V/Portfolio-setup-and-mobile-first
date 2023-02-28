@@ -49,7 +49,6 @@
   </ul>
 </details>
 
-
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
@@ -85,7 +84,6 @@ Clone this repository to your desired folder:
 https
 cd my-folder
 git clone https://github.com/J-C-S-V/hello_microverse_project.git
-
 
 ### Install
 
@@ -147,7 +145,6 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-
 If you like this project give me a star 🤓
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -156,11 +153,9 @@ If you like this project give me a star 🤓
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-
 I would like to thank Microverse
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 <!-- LICENSE -->
 
