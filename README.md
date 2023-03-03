@@ -9,6 +9,7 @@
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
     - [🚀 Live Demo](#live-demo)
+    - [🤓 Loom walkthrough](#loom-walkthrough)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -66,6 +67,15 @@
 - [Live Demo Link](https://j-c-s-v.github.io/Portfolio-setup-and-mobile-first/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LOOM WALKTHROUGH -->
+
+## 🤓 Loom walkthrough <a name="loom-walkthrough"></a>
+
+- [Loom walkthrough Link](https://www.loom.com/share/483996a7e9994300a7a8f4b63b7ceaa6)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 <!-- GETTING STARTED -->
 
