@@ -7,7 +7,6 @@ let unorderedList = document.createElement('ul');
 
 hamburgerMenu.addEventListener('click', () => {
   // alert("It's working!");
-  // document.body.style.backGroundColor = '#6070ff';
   document.body.style.backgroundColor = '#6070ff';
   document.body.style.backdropFilter = "blur(5rem)";
 });
