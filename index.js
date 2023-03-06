@@ -1,9 +1,9 @@
 let hamburgerMenu = document.querySelector('.three-bar-menu');
 
-hamburgerMenu.innerText = 'Hello';
+// hamburgerMenu.innerText = 'Hello';
 
-document.body.appendChild(hamburgerMenu);
+// document.body.appendChild(hamburgerMenu);
 
-addEventListener('onclick', () => {
+hamburgerMenu.addEventListener('click', () => {
   alert("It's working!");
 });
