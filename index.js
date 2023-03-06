@@ -1,18 +1,21 @@
 let header = document.querySelector('header');
 let body = document.querySelector('body');
-console.log(body);
 let popUpMenuDiv = document.createElement('div');
-popUpMenuDiv.innerText = 'hey!';
+body.style.filter = 'blur(3px)';
 body.insertBefore(popUpMenuDiv, header);
+// console.log(body);
+// popUpMenuDiv.innerText = 'hey!';
 popUpMenuDiv.style.position = 'fixed';
 popUpMenuDiv.style.width = '100%';
 popUpMenuDiv.style.backgroundColor = '#6070FF';
-popUpMenuDiv.style.opacity = '0.9';
-
+popUpMenuDiv.style.mixBlendMode = 'multiply';
 popUpMenuDiv.style.height = '100vh';
+// popUpMenuDiv.style.opacity = '0.9';
 
 // console.log(popUpMenuDiv);
 let unorderedList = document.createElement('ul');
+
+popUpMenuDiv.appendChild(unorderedList);
 
 {
   /* <div class="popUpMenuDiv">
