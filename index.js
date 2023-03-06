@@ -1,21 +1,31 @@
-let hamburgerMenu = document.querySelector('.three-bar-menu');
-let popUpMenu = document.createElement('div');
+let header = document.querySelector('header');
+let body = document.querySelector('body');
+console.log(body);
+let popUpMenuDiv = document.createElement('div');
+popUpMenuDiv.innerText = 'hey!';
+body.insertBefore(popUpMenuDiv, header);
+popUpMenuDiv.style.position = 'fixed';
+popUpMenuDiv.style.width = '100%';
+popUpMenuDiv.style.backgroundColor = '#6070FF';
+popUpMenuDiv.style.opacity = '0.9';
+
+popUpMenuDiv.style.height = '100vh';
+
+// console.log(popUpMenuDiv);
 let unorderedList = document.createElement('ul');
-// hamburgerMenu.innerText = 'Hello';
 
-// document.body.appendChild(hamburgerMenu);
-
-hamburgerMenu.addEventListener('click', () => {
-  // alert("It's working!");
-  document.body.style.backgroundColor = '#6070ff';
-  document.body.style.backdropFilter = "blur(5rem)";
-});
-
-<div class="popUpMenu">
+{
+  /* <div class="popUpMenuDiv">
   <ul>
     <li>X</li>
     <li>Portfolio</li>
     <li>About</li>
     <li>Contact</li>
   </ul>
-</div>
+</div>; */
+}
+
+// position: sticky;
+// width: 100%;
+// background: yellow;
+// height: 100vh;
