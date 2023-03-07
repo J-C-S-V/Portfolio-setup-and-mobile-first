@@ -4,15 +4,15 @@ const crossIcon = document.querySelector('.crossIcon');
 hamburguerMenuIcon.addEventListener('click', () => {
   console.log('test');
 
-  let header = document.querySelector('header');
-  let body = document.querySelector('body');
-  let popUpMenuDiv = document.createElement('div');
-  let unorderedList = document.createElement('ul');
-  let crossIcon = document.createElement('a');
-  let bottomLine = document.createElement('span');
+  const header = document.querySelector('header');
+  const body = document.querySelector('body');
+  const popUpMenuDiv = document.createElement('div');
+  const unorderedList = document.createElement('ul');
+  const crossIcon = document.createElement('a');
+  // const bottomLine = document.createElement('span');
 
-  let headerBar = document.querySelector('.header-bar');
-  let mainSection = document.querySelector('.main-section');
+  const headerBar = document.querySelector('.header-bar');
+  const mainSection = document.querySelector('.main-section');
   // let mainContainerProjects = document.querySelector(
   //   '.main-container-projects'
   // );
@@ -49,9 +49,9 @@ hamburguerMenuIcon.addEventListener('click', () => {
   const titlesOfMenu = ['Portfolio', 'About', 'Contact'];
   const anchorIds = ['#main-img', '#about-section-1', '#form-footer'];
 
-  for (let i = 0; i < titlesOfMenu.length; i++) {
-    let listElement = document.createElement('li');
-    let listElementAnchor = document.createElement('a');
+  for (let i = 0; i < titlesOfMenu.length; i += 1) {
+    const listElement = document.createElement('li');
+    const listElementAnchor = document.createElement('a');
     listElementAnchor.href = anchorIds[i];
 
     listElementAnchor.style.color = 'white';
@@ -70,10 +70,10 @@ hamburguerMenuIcon.addEventListener('click', () => {
   popUpMenuDiv.style.mixBlendMode = 'multiply';
 });
 
-crossIcon.addEventListener('click', function () {
-  console.log("it's working");
-  location.reload();
-});
+// crossIcon.addEventListener('click', () => {
+//   console.log("it's working");
+//   location.reload();
+// });
 
 // console.log(popUpMenuDiv);
 /* <div class="popUpMenuDiv">
