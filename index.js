@@ -3,10 +3,15 @@ let body = document.querySelector('body');
 let popUpMenuDiv = document.createElement('div');
 let unorderedList = document.createElement('ul');
 let crossIcon = document.createElement('a');
+let bottomLine = document.createElement('span');
 
 let headerBar = document.querySelector('.header-bar');
 let mainSection = document.querySelector('.main-section');
 let mainContainerProjects = document.querySelector('.main-container-projects');
+
+// add a class to the anchor tag
+
+crossIcon.classList.add('crossIcon');
 
 // Cross Icon styling
 
@@ -25,56 +30,47 @@ popUpMenuDiv.style.fontWeight = '600';
 popUpMenuDiv.style.fontSize = '32px';
 popUpMenuDiv.style.display = 'flex';
 popUpMenuDiv.style.padding = '7.6rem 1.5rem';
+popUpMenuDiv.style.zIndex = '1';
 
-popUpMenuDiv.appendChild(crossIcon);
+// bluring the background
 
 headerBar.style.filter = 'blur(6px)';
 mainSection.style.filter = 'blur(6px)';
-mainContainerProjects.style.filter = 'blur(6px)';
+// mainContainerProjects.style.filter = 'blur(6px)';
 
+////////////////////
+
+popUpMenuDiv.appendChild(crossIcon);
 body.insertBefore(popUpMenuDiv, header);
 popUpMenuDiv.appendChild(unorderedList);
 
 //////////////////
 
 const titlesOfMenu = ['Portfolio', 'About', 'Contact'];
+const anchorIds = ['#main-img', '#about-section-1', '#form-footer'];
 
 for (let i = 0; i < titlesOfMenu.length; i++) {
   let listElement = document.createElement('li');
   let listElementAnchor = document.createElement('a');
+  listElementAnchor.href = anchorIds[i];
+
+  listElementAnchor.style.color = 'white';
   unorderedList.appendChild(listElement);
   listElement.appendChild(listElementAnchor);
   listElementAnchor.innerText = titlesOfMenu[i];
   listElement.style.color = 'white';
 }
 
-/////////////////
-// let listElements = document.createElement('li');
-// let listElements2 = document.createElement('li');
-// let listElements3 = document.createElement('li');
-// let listElements4 = document.createElement('li');
-// unorderedList.appendChild(listElements);
-// unorderedList.appendChild(listElements2);
-// unorderedList.appendChild(listElements3);
-// unorderedList.appendChild(listElements4);
+// popUpMenuDiv styling
 
-// body.style.filter = 'blur(3px)';
-
-console.log(body.length);
-
-// console.log(body);
-// popUpMenuDiv.innerText = 'hey!';
 popUpMenuDiv.style.position = 'absolute';
 popUpMenuDiv.style.width = '100%';
 popUpMenuDiv.style.height = '100vh';
 popUpMenuDiv.style.backgroundColor = '#6070FF';
 popUpMenuDiv.style.mixBlendMode = 'multiply';
-// popUpMenuDiv.style.opacity = '0.9';
 
 // console.log(popUpMenuDiv);
-
-{
-  /* <div class="popUpMenuDiv">
+/* <div class="popUpMenuDiv">
   <ul>
     <li>X</li>
     <li>Portfolio</li>
@@ -82,14 +78,13 @@ popUpMenuDiv.style.mixBlendMode = 'multiply';
     <li>Contact</li>
   </ul>
 </div>; */
-}
+
+/* DEV TOOLS PROPERTIES */
 
 // position: sticky;
 // width: 100%;
 // background: yellow;
 // height: 100vh;
-
-/* DEV TOOLS PROPERTIES */
 
 // header - bar;
 // main - section;
