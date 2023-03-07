@@ -43,6 +43,6 @@ hamburguerMenuIcon.addEventListener('click', () => {
 
   const crossIconClass = document.querySelector('.crossIcon');
   crossIconClass.addEventListener('click', () => {
-    location.reload();
+    window.location.reload();
   });
 });
