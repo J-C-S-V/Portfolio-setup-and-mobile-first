@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
+.crossIcon {
+  color: white;
+  font-size: 2rem;
+  position: absolute;
+  top: 1.5rem;
+  right: 1rem;
+  padding: 1rem;
+  cursor: pointer;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -78,7 +88,7 @@ body {
   font-size: 18px;
   color: #5050f5;
   font-weight: bold;
-  animation: rotate 3s linear;
+  animation: rotate 1s linear;
 }
 
 @keyframes rotate {
@@ -131,6 +141,11 @@ body {
   height: 2px;
   border-radius: 3px;
   background-color: #5050f5;
+}
+
+.three-bar-menu {
+  padding: 4px;
+  cursor: pointer;
 }
 
 /* Cards */

@@ -1,73 +1,79 @@
-let header = document.querySelector('header');
-let body = document.querySelector('body');
-let popUpMenuDiv = document.createElement('div');
-let unorderedList = document.createElement('ul');
-let crossIcon = document.createElement('a');
-let bottomLine = document.createElement('span');
+const hamburguerMenuIcon = document.querySelector('.three-bar-menu');
+const crossIcon = document.querySelector('.crossIcon');
 
-let headerBar = document.querySelector('.header-bar');
-let mainSection = document.querySelector('.main-section');
-let mainContainerProjects = document.querySelector('.main-container-projects');
+hamburguerMenuIcon.addEventListener('click', () => {
+  console.log('test');
 
-// add a class to the anchor tag
+  let header = document.querySelector('header');
+  let body = document.querySelector('body');
+  let popUpMenuDiv = document.createElement('div');
+  let unorderedList = document.createElement('ul');
+  let crossIcon = document.createElement('a');
+  let bottomLine = document.createElement('span');
 
-crossIcon.classList.add('crossIcon');
+  let headerBar = document.querySelector('.header-bar');
+  let mainSection = document.querySelector('.main-section');
+  // let mainContainerProjects = document.querySelector(
+  //   '.main-container-projects'
+  // );
 
-// Cross Icon styling
+  // add a class to the anchor tag
+  crossIcon.classList.add('crossIcon');
 
-crossIcon.innerText = 'X';
-crossIcon.style.color = 'white';
-crossIcon.style.fontSize = '2rem';
-crossIcon.style.position = 'absolute';
-crossIcon.style.top = '1.5rem';
-crossIcon.style.right = '1rem';
-crossIcon.style.padding = '1rem';
-crossIcon.style.cursor = 'pointer';
+  // Cross Icon styling
 
-// popUpMenuDiv styling
+  crossIcon.innerText = 'X';
 
-popUpMenuDiv.style.fontWeight = '600';
-popUpMenuDiv.style.fontSize = '32px';
-popUpMenuDiv.style.display = 'flex';
-popUpMenuDiv.style.padding = '7.6rem 1.5rem';
-popUpMenuDiv.style.zIndex = '1';
+  // popUpMenuDiv styling
 
-// bluring the background
+  popUpMenuDiv.style.fontWeight = '600';
+  popUpMenuDiv.style.fontSize = '32px';
+  popUpMenuDiv.style.display = 'flex';
+  popUpMenuDiv.style.padding = '7.6rem 1.5rem';
+  popUpMenuDiv.style.zIndex = '1';
 
-headerBar.style.filter = 'blur(6px)';
-mainSection.style.filter = 'blur(6px)';
-// mainContainerProjects.style.filter = 'blur(6px)';
+  // bluring the background
 
-////////////////////
+  headerBar.style.filter = 'blur(6px)';
+  mainSection.style.filter = 'blur(6px)';
+  // mainContainerProjects.style.filter = 'blur(6px)';
 
-popUpMenuDiv.appendChild(crossIcon);
-body.insertBefore(popUpMenuDiv, header);
-popUpMenuDiv.appendChild(unorderedList);
+  ////////////////////
 
-//////////////////
+  popUpMenuDiv.appendChild(crossIcon);
+  body.insertBefore(popUpMenuDiv, header);
+  popUpMenuDiv.appendChild(unorderedList);
 
-const titlesOfMenu = ['Portfolio', 'About', 'Contact'];
-const anchorIds = ['#main-img', '#about-section-1', '#form-footer'];
+  //////////////////
 
-for (let i = 0; i < titlesOfMenu.length; i++) {
-  let listElement = document.createElement('li');
-  let listElementAnchor = document.createElement('a');
-  listElementAnchor.href = anchorIds[i];
+  const titlesOfMenu = ['Portfolio', 'About', 'Contact'];
+  const anchorIds = ['#main-img', '#about-section-1', '#form-footer'];
 
-  listElementAnchor.style.color = 'white';
-  unorderedList.appendChild(listElement);
-  listElement.appendChild(listElementAnchor);
-  listElementAnchor.innerText = titlesOfMenu[i];
-  listElement.style.color = 'white';
-}
+  for (let i = 0; i < titlesOfMenu.length; i++) {
+    let listElement = document.createElement('li');
+    let listElementAnchor = document.createElement('a');
+    listElementAnchor.href = anchorIds[i];
 
-// popUpMenuDiv styling
+    listElementAnchor.style.color = 'white';
+    unorderedList.appendChild(listElement);
+    listElement.appendChild(listElementAnchor);
+    listElementAnchor.innerText = titlesOfMenu[i];
+    listElement.style.color = 'white';
+  }
 
-popUpMenuDiv.style.position = 'absolute';
-popUpMenuDiv.style.width = '100%';
-popUpMenuDiv.style.height = '100vh';
-popUpMenuDiv.style.backgroundColor = '#6070FF';
-popUpMenuDiv.style.mixBlendMode = 'multiply';
+  // popUpMenuDiv styling
+
+  popUpMenuDiv.style.position = 'absolute';
+  popUpMenuDiv.style.width = '100%';
+  popUpMenuDiv.style.height = '100vh';
+  popUpMenuDiv.style.backgroundColor = '#6070FF';
+  popUpMenuDiv.style.mixBlendMode = 'multiply';
+});
+
+crossIcon.addEventListener('click', function () {
+  console.log("it's working");
+  location.reload();
+});
 
 // console.log(popUpMenuDiv);
 /* <div class="popUpMenuDiv">
