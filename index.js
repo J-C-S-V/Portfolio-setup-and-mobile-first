@@ -1,8 +1,8 @@
 const hamburguerMenuIcon = document.querySelector('.three-bar-menu');
-const crossIcon = document.querySelector('.crossIcon');
+// const crossIcon = document.querySelector('.crossIcon');
 
 hamburguerMenuIcon.addEventListener('click', () => {
-  console.log('test');
+  // console.log('test');
 
   const header = document.querySelector('header');
   const body = document.querySelector('body');
@@ -20,8 +20,6 @@ hamburguerMenuIcon.addEventListener('click', () => {
   // add a class to the anchor tag
   crossIcon.classList.add('crossIcon');
 
-  // Cross Icon styling
-
   crossIcon.innerText = 'X';
 
   // popUpMenuDiv styling
@@ -38,13 +36,9 @@ hamburguerMenuIcon.addEventListener('click', () => {
   mainSection.style.filter = 'blur(6px)';
   // mainContainerProjects.style.filter = 'blur(6px)';
 
-  ////////////////////
-
   popUpMenuDiv.appendChild(crossIcon);
   body.insertBefore(popUpMenuDiv, header);
   popUpMenuDiv.appendChild(unorderedList);
-
-  //////////////////
 
   const titlesOfMenu = ['Portfolio', 'About', 'Contact'];
   const anchorIds = ['#main-img', '#about-section-1', '#form-footer'];
@@ -84,19 +78,3 @@ hamburguerMenuIcon.addEventListener('click', () => {
     <li>Contact</li>
   </ul>
 </div>; */
-
-/* DEV TOOLS PROPERTIES */
-
-// position: sticky;
-// width: 100%;
-// background: yellow;
-// height: 100vh;
-
-// header - bar;
-// main - section;
-// main - container - projects;
-
-// font-weight: 600;
-// font-size: 32px;
-// display: flex;
-// padding: 7.6rem 1.5rem;
