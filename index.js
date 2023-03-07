@@ -46,3 +46,24 @@ hamburguerMenuIcon.addEventListener('click', () => {
     window.location.reload();
   });
 });
+
+const mainContainerProjects = document.querySelector(
+  '.main-container-projects'
+);
+
+mainContainerProjects.innerHTML = `
+
+      <div class="modal-container">
+      <div class="modal">
+      <h1>Modals are 😎</h1>
+      <p>Modals are a great way to display 
+      content without having to navigate to a new page.
+      </p>
+      </div>
+      </div>
+      <button id="close-modal">
+      Close
+      </button>
+
+
+`;
