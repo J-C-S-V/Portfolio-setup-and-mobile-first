@@ -45,4 +45,24 @@ hamburguerMenuIcon.addEventListener('click', () => {
   crossIconClass.addEventListener('click', () => {
     window.location.reload();
   });
+
+  const anchorTags = document.querySelectorAll('body div ul li a');
+  for (let i = 0; i < anchorTags.length; i += 1) {
+    anchorTags[i].classList.add(`anchorTags${i}`);
+  }
+
+  const anchorTags0 = document.querySelector('.anchorTags0');
+  anchorTags0.addEventListener('click', () => {
+    window.location.reload();
+  });
+
+  const anchorTags1 = document.querySelector('.anchorTags1');
+  anchorTags1.addEventListener('click', () => {
+    window.location.reload();
+  });
+
+  const anchorTags2 = document.querySelector('.anchorTags2');
+  anchorTags2.addEventListener('click', () => {
+    window.location.reload();
+  });
 });
