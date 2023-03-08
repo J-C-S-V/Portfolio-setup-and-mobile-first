@@ -58,7 +58,7 @@ body {
 .main-section {
   display: flex;
   flex-direction: column;
-  margin: 5% 5%;
+  margin: 28% 5%;
 }
 
 .main-section > * {
@@ -612,5 +612,175 @@ hr {
 
   .form-container > * {
     border-radius: 2px;
+  }
+}
+
+/* Modal style */
+
+.modal-card {
+  display: flex;
+  flex-direction: column;
+  padding: 4% 3%;
+  border-radius: 20px;
+  margin: 9% 6%;
+  gap: 1.2rem;
+  height: 100%;
+  border: 1px solid #dfe1e6;
+  background-color: #fff;
+}
+
+.modal-card__span {
+  display: block;
+  background-color: #0d151e;
+  height: 0.3rem;
+  width: 50%;
+  margin: 10% auto;
+}
+
+.modal-card-open {
+  display: flex;
+  flex-direction: column;
+  padding: 4% 3%;
+  border-radius: 8px;
+  margin: 9% 6%;
+  gap: 1.2rem;
+  height: 90vh;
+  border: 1px solid #dfe1e6;
+  background-color: #fff;
+}
+
+.modal-card-span-open {
+  display: block;
+  background-color: #0d151e;
+  height: 0.3rem;
+  width: 50%;
+  margin: 10% auto;
+}
+
+.modal-card__h2 {
+  display: flex;
+  justify-content: space-between;
+  color: #172b4d;
+  align-items: center;
+}
+
+.modal-card__cancel {
+  justify-self: flex-end;
+}
+
+.modal-card__list {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.modal-card__p {
+  padding: 0;
+}
+
+.modal-card__lits-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+
+.modal-card__li {
+  padding: 0.5rem;
+  color: #6070ff;
+  background-color: #ebebff;
+  border-radius: 8px;
+}
+
+.modal-card__buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.modal-card__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  width: 8.5rem;
+  padding: 0.8rem 0;
+  background-color: #fff;
+  font-size: 1rem;
+  color: #396df2;
+  border-radius: 8px;
+  border: 1px solid #396df2;
+}
+
+.modal-card__role svg,
+.modal-card__year svg {
+  position: relative;
+  left: -5px;
+}
+
+.modal-card__hr {
+  margin-top: 2rem;
+}
+
+/* Desktop modal style */
+
+@media screen and (min-width: 768px) {
+  .modal-card__span {
+    display: none;
+  }
+
+  .modal-card {
+    display: flex;
+    flex-direction: column;
+    width: 51rem;
+    padding: 2% 1.5% 11%;
+    border-radius: 20px;
+    margin: 2% auto 2%;
+    height: 100%;
+    border: 1px solid #dfe1e6;
+    background-color: #fff;
+  }
+
+  .modal-card__img {
+    height: 70%;
+    width: 100%;
+    background-image: url(./img/Snapshoot\ Portfolio_desktop.svg);
+    align-self: center;
+  }
+
+  .modal-card__desktop-section {
+    display: flex;
+  }
+
+  .modal-card__desktop-section2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .modal-card__lits-2 {
+    margin-left: -70px;
+  }
+
+  .modal-card__cancel:hover {
+    cursor: pointer;
+  }
+
+  .modal-card__role svg,
+  .modal-card__year svg {
+    position: relative;
+    left: -8px;
+  }
+
+  .modal-card__list li {
+    padding: 0;
+  }
+
+  .modal-card__list {
+    position: relative;
+    bottom: 18px;
   }
 }
