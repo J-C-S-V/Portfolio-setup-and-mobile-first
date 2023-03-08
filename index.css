@@ -714,10 +714,6 @@ hr {
   border: 1px solid #396df2;
 }
 
-body {
-  /* background-color: #c1c7d0; */
-}
-
 /* Desktop modal style */
 
 @media screen and (min-width: 768px) {
