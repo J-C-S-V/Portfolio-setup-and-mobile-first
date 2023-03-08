@@ -179,9 +179,11 @@ buttonProject1.addEventListener('click', () => {
   </li>
 </ul>
 <img class="modal-card__img" src="${projectListObject[0].featuredImage}" alt="" />
+<div class="modal-card__desktop-section">
 <p class="modal-card__p">
 ${projectListObject[0].description}
 </p>
+<div class="modal-card__desktop-section2">
 <ul class="modal-card__lits-2">
   <li class="modal-card__html modal-card__li">${projectListObject[0].technologies[0]}</li>
   <li class="modal-card__css modal-card__li">${projectListObject[0].technologies[1]}</li>
@@ -218,6 +220,8 @@ ${projectListObject[0].description}
       />
     </svg>
   </button>
+  </div>
+  </div>
 </div>
 </article>
 <span class="modal-card__span"></span>

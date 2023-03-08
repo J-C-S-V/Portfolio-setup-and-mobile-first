@@ -730,3 +730,50 @@ hr {
 body {
   /* background-color: #c1c7d0; */
 }
+
+/* Desktop modal style */
+
+@media screen and (min-width: 768px) {
+  .modal-card__span {
+    display: none;
+  }
+  .modal-card {
+    display: flex;
+    flex-direction: column;
+    width: 51rem;
+    padding: 2% 3% 11%;
+    border-radius: 8px;
+    margin: 2% 13% 2%;
+    /* gap: 1.2rem; */
+    height: 93vh;
+    border: 1px solid #dfe1e6;
+    background-color: #fff;
+    /* display: none; */
+    /* background-color: yellow; */
+  }
+  .modal-card__img {
+    height: 70%;
+    width: 100%;
+    background-image: url(./img/Snapshoot\ Portfolio_desktop.svg);
+    align-self: center;
+  }
+
+  .modal-card__desktop-section {
+    display: flex;
+  }
+
+  .modal-card__desktop-section2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .modal-card__lits-2 {
+    margin-left: -70px;
+  }
+
+  .modal-card__cancel:hover {
+    cursor: pointer;
+  }
+}
