@@ -75,7 +75,7 @@ const projectListObject = [
     year: '2015',
     featuredImage: './img/Snapshoot Portfolio.png',
     description:
-      'lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.',
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into.",
     technologies: ['html', 'css', 'javascript'],
     seeLive: 'See live',
     seeSource: 'See Source',
@@ -87,7 +87,7 @@ const projectListObject = [
     year: '2015',
     featuredImage: './img/Snapshoot Portfolio (1).png',
     description:
-      'lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.',
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into.",
     technologies: ['html', 'css', 'javascript'],
     seeLive: 'See live',
     seeSource: 'See Source',
@@ -99,7 +99,7 @@ const projectListObject = [
     year: '2015',
     featuredImage: './img/Snapshoot Portfolio (2).png',
     description:
-      'lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.',
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into.",
     technologies: ['html', 'css', 'javascript'],
     seeLive: 'See live',
     seeSource: 'See Source',
@@ -111,7 +111,7 @@ const projectListObject = [
     year: '2018',
     featuredImage: './img/Snapshoot Portfolio (3).png',
     description:
-      'lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.',
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into.",
     technologies: ['html', 'css', 'javascript'],
     seeLive: 'See live',
     seeSource: 'See Source',
@@ -181,6 +181,7 @@ ${projectListObject[0].description}
   <li class="modal-card__css modal-card__li">${projectListObject[0].technologies[1]}</li>
   <li class="modal-card__javascript modal-card__li">${projectListObject[0].technologies[2]}</li>
 </ul>
+<hr class="modal-card__hr">
 <div class="modal-card__buttons">
   <button class="modal-card__button" type="button">
     ${projectListObject[0].seeLive}<svg
@@ -290,6 +291,7 @@ ${projectListObject[1].description}
   <li class="modal-card__css modal-card__li">${projectListObject[1].technologies[1]}</li>
   <li class="modal-card__javascript modal-card__li">${projectListObject[1].technologies[2]}</li>
 </ul>
+<hr class="modal-card__hr">
 <div class="modal-card__buttons">
   <button class="modal-card__button" type="button">
   ${projectListObject[1].seeLive}<svg
@@ -398,6 +400,7 @@ ${projectListObject[2].description}
   <li class="modal-card__css modal-card__li">${projectListObject[2].technologies[1]}</li>
   <li class="modal-card__javascript modal-card__li">${projectListObject[2].technologies[2]}</li>
 </ul>
+<hr class="modal-card__hr">
 <div class="modal-card__buttons">
   <button class="modal-card__button" type="button">
   ${projectListObject[2].seeLive}<svg
@@ -506,6 +509,7 @@ ${projectListObject[3].description}
   <li class="modal-card__css modal-card__li">${projectListObject[2].technologies[1]}</li>
   <li class="modal-card__javascript modal-card__li">${projectListObject[2].technologies[2]}</li>
 </ul>
+<hr class="modal-card__hr">
 <div class="modal-card__buttons">
   <button class="modal-card__button" type="button">
   ${projectListObject[3].seeLive}<svg
