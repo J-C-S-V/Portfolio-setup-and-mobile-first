@@ -714,6 +714,12 @@ hr {
   border: 1px solid #396df2;
 }
 
+.modal-card__role svg,
+.modal-card__year svg {
+  position: relative;
+  left: -5px;
+}
+
 /* Desktop modal style */
 
 @media screen and (min-width: 768px) {
@@ -757,5 +763,19 @@ hr {
 
   .modal-card__cancel:hover {
     cursor: pointer;
+  }
+
+  .modal-card__role svg,
+  .modal-card__year svg {
+    position: relative;
+    left: -8px;
+  }
+
+  .modal-card__list li {
+    padding: 0;
+  }
+  .modal-card__list {
+    position: relative;
+    bottom: 18px;
   }
 }
