@@ -73,7 +73,6 @@ hamburguerMenuIcon.addEventListener('click', () => {
 
 const projectListObject = [
   {
-    // id: 0,
     name: 'Tonic',
     company: 'Canopy',
     role: 'Back end dev',
@@ -86,7 +85,6 @@ const projectListObject = [
     seeSource: 'See Source',
   },
   {
-    // id: 1,
     name: 'Multi-post stories',
     company: 'Canopy',
     role: 'Back end dev',
@@ -99,7 +97,6 @@ const projectListObject = [
     seeSource: 'See Source',
   },
   {
-    // id: 2,
     name: 'Tonic',
     company: 'Canopy',
     role: 'Back end Dev',
@@ -112,7 +109,6 @@ const projectListObject = [
     seeSource: 'See Source',
   },
   {
-    // id: 3,
     name: 'Multi-post stories',
     company: 'Canopy',
     role: 'Back end dev',
