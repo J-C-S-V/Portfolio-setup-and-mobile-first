@@ -279,9 +279,12 @@ buttonProject2.addEventListener('click', () => {
   </li>
 </ul>
 <img class="modal-card__img" src="${projectListObject[1].featuredImage}" alt="" />
+<div class="modal-card__desktop-section">
 <p class="modal-card__p">
 ${projectListObject[1].description}
 </p>
+<div class="modal-card__desktop-section2">
+
 <ul class="modal-card__lits-2">
   <li class="modal-card__html modal-card__li">${projectListObject[1].technologies[0]}</li>
   <li class="modal-card__css modal-card__li">${projectListObject[1].technologies[1]}</li>
@@ -318,6 +321,8 @@ ${projectListObject[1].description}
       />
     </svg>
   </button>
+    </div>
+  </div>
 </div>
 </article>
 <span class="modal-card__span"></span>
@@ -383,9 +388,11 @@ buttonProject3.addEventListener('click', () => {
   </li>
 </ul>
 <img class="modal-card__img" src="${projectListObject[2].featuredImage}" alt="" />
+<div class="modal-card__desktop-section">
 <p class="modal-card__p">
 ${projectListObject[2].description}
 </p>
+<div class="modal-card__desktop-section2">
 <ul class="modal-card__lits-2">
   <li class="modal-card__html modal-card__li">${projectListObject[2].technologies[0]}</li>
   <li class="modal-card__css modal-card__li">${projectListObject[2].technologies[1]}</li>
@@ -422,6 +429,8 @@ ${projectListObject[2].description}
       />
     </svg>
   </button>
+    </div>
+  </div>
 </div>
 </article>
 <span class="modal-card__span"></span>
@@ -487,9 +496,11 @@ ${projectListObject[3].name}
   </li>
 </ul>
 <img class="modal-card__img" src="${projectListObject[3].featuredImage}" alt="" />
+<div class="modal-card__desktop-section">
 <p class="modal-card__p">
 ${projectListObject[3].description}
 </p>
+<div class="modal-card__desktop-section2">
 <ul class="modal-card__lits-2">
   <li class="modal-card__html modal-card__li">${projectListObject[2].technologies[0]}</li>
   <li class="modal-card__css modal-card__li">${projectListObject[2].technologies[1]}</li>
@@ -526,6 +537,8 @@ ${projectListObject[3].description}
       />
     </svg>
   </button>
+    </div>
+  </div>
 </div>
 </article>
 <span class="modal-card__span"></span>
