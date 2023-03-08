@@ -67,13 +67,8 @@ hamburguerMenuIcon.addEventListener('click', () => {
   });
 });
 
-/* Modals */
-
-// Array
-
 const projectListObject = [
   {
-    // id: 0,
     name: 'Tonic',
     company: 'Canopy',
     role: 'Back end dev',
@@ -86,7 +81,6 @@ const projectListObject = [
     seeSource: 'See Source',
   },
   {
-    // id: 1,
     name: 'Multi-post stories',
     company: 'Canopy',
     role: 'Back end dev',
@@ -99,7 +93,6 @@ const projectListObject = [
     seeSource: 'See Source',
   },
   {
-    // id: 2,
     name: 'Tonic',
     company: 'Canopy',
     role: 'Back end Dev',
@@ -112,7 +105,6 @@ const projectListObject = [
     seeSource: 'See Source',
   },
   {
-    // id: 3,
     name: 'Multi-post stories',
     company: 'Canopy',
     role: 'Back end dev',
@@ -129,7 +121,7 @@ const projectListObject = [
 const buttonProject1 = document.querySelector('.see-project');
 const body2 = document.querySelector('body');
 buttonProject1.addEventListener('click', () => {
-  console.log('hello');
+  // console.log('hello');
   body2.innerHTML = `
 <article class="modal-card">
 <h2 class="modal-card__h2">
@@ -227,30 +219,17 @@ ${projectListObject[0].description}
 <span class="modal-card__span"></span>
 `;
 
-  // body.insertBefore(popUpMenuDiv, header);
-
-  // document.body.appendChild(body2);
-
   const corssIconPopUpCard = document.querySelector('.modal-card__cancel');
   corssIconPopUpCard.addEventListener('click', () => {
-    console.log('cross working');
+    // console.log('cross working');
     window.location.reload();
   });
 });
 
-/* 
-
-
-Second event listener for the pop up card 
-
-
-
-*/
-
 const buttonProject2 = document.querySelector('.see-project2');
 const body3 = document.querySelector('body');
 buttonProject2.addEventListener('click', () => {
-  console.log('hello');
+  // console.log('hello');
   body3.innerHTML = `
 <article class="modal-card">
 <h2 class="modal-card__h2">
@@ -351,19 +330,10 @@ ${projectListObject[1].description}
   });
 });
 
-/* 
-
-
-Third event listener for the pop up card 
-
-
-
-*/
-
 const buttonProject3 = document.querySelector('.see-project3');
 const body4 = document.querySelector('body');
 buttonProject3.addEventListener('click', () => {
-  console.log('hello');
+  // console.log('hello');
   body4.innerHTML = `
 <article class="modal-card">
 <h2 class="modal-card__h2">
@@ -464,19 +434,10 @@ ${projectListObject[2].description}
   });
 });
 
-/* 
-
-
-Fourth event listener for the pop up card 
-
-
-
-*/
-
 const buttonProject4 = document.querySelector('.see-project4');
 const body5 = document.querySelector('body');
 buttonProject4.addEventListener('click', () => {
-  console.log('hello');
+  // console.log('hello');
   body5.innerHTML = `
 <article class="modal-card">
 <h2 class="modal-card__h2">

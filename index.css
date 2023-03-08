@@ -617,15 +617,6 @@ hr {
 
 /* Modal style */
 
-.modal-container {
-  /* pointer-events: auto; */
-  /* opacity: 0; */
-  /* visibility: hidden; */
-  /* display: none; */
-  /* display: 0; */
-  /* background-color: #c1c7d0; */
-}
-
 .modal-card {
   display: flex;
   flex-direction: column;
@@ -636,7 +627,6 @@ hr {
   height: 80vh;
   border: 1px solid #dfe1e6;
   background-color: #fff;
-  /* display: none; */
 }
 
 .modal-card__span {
@@ -645,7 +635,6 @@ hr {
   height: 0.3rem;
   width: 50%;
   margin: 10% auto;
-  /* display: none; */
 }
 
 .modal-card-open {
@@ -658,7 +647,6 @@ hr {
   height: 90vh;
   border: 1px solid #dfe1e6;
   background-color: #fff;
-  display: 0;
 }
 
 .modal-card-span-open {
@@ -667,7 +655,6 @@ hr {
   height: 0.3rem;
   width: 50%;
   margin: 10% auto;
-  display: 0;
 }
 
 .modal-card__h2 {
@@ -737,6 +724,7 @@ body {
   .modal-card__span {
     display: none;
   }
+
   .modal-card {
     display: flex;
     flex-direction: column;
@@ -744,13 +732,11 @@ body {
     padding: 2% 3% 11%;
     border-radius: 8px;
     margin: 2% 13% 2%;
-    /* gap: 1.2rem; */
     height: 93vh;
     border: 1px solid #dfe1e6;
     background-color: #fff;
-    /* display: none; */
-    /* background-color: yellow; */
   }
+
   .modal-card__img {
     height: 70%;
     width: 100%;
