@@ -66,3 +66,5 @@ hamburguerMenuIcon.addEventListener('click', () => {
     window.location.reload();
   });
 });
+
+/* Modals */
