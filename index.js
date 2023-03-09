@@ -559,11 +559,19 @@ form.addEventListener('submit', (e) => {
   }
 });
 
-//Storage
+// Storage
 
 const inputName = document.getElementById('name');
 const inputEmail = document.getElementById('email');
 const inputTextArea = document.getElementById('message');
+
+// Object with data
+
+const objectDataForm = {
+  name: '',
+  email: '',
+  text: '',
+};
 
 function getInputName() {
   objectDataForm.name = inputName.value;
@@ -579,14 +587,6 @@ function getInputTextArea() {
   objectDataForm.text = inputTextArea.value;
   localStorage.setItem('Object', JSON.stringify(objectDataForm));
 }
-
-// Object with data
-
-let objectDataForm = {
-  name: '',
-  email: '',
-  text: '',
-};
 
 inputName.addEventListener('input', getInputName);
 inputEmail.addEventListener('input', getInputEmail);
