@@ -558,3 +558,43 @@ form.addEventListener('submit', (e) => {
     error.innerHTML = 'Are you using uppercase in the email field? 👀';
   }
 });
+
+// Storage
+
+const inputName = document.getElementById('name');
+const inputEmail = document.getElementById('email');
+const inputTextArea = document.getElementById('message');
+
+// Object with data
+
+const objectDataForm = {
+  name: '',
+  email: '',
+  text: '',
+};
+
+function getInputName() {
+  objectDataForm.name = inputName.value;
+  localStorage.setItem('Object', JSON.stringify(objectDataForm));
+}
+
+function getInputEmail() {
+  objectDataForm.email = inputEmail.value;
+  localStorage.setItem('Object', JSON.stringify(objectDataForm));
+}
+
+function getInputTextArea() {
+  objectDataForm.text = inputTextArea.value;
+  localStorage.setItem('Object', JSON.stringify(objectDataForm));
+}
+
+inputName.addEventListener('input', getInputName);
+inputEmail.addEventListener('input', getInputEmail);
+inputTextArea.addEventListener('input', getInputTextArea);
+
+const objectDataFormUpdated = JSON.parse(localStorage.getItem('Object'));
+
+inputName.value = objectDataFormUpdated.name;
+inputEmail.value = objectDataFormUpdated.email;
+inputTextArea.value = objectDataFormUpdated.text;
+// console.log(objectDataFormUpdated);
