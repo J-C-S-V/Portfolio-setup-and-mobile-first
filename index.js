@@ -561,30 +561,41 @@ form.addEventListener('submit', (e) => {
 
 //Storage
 
-const inputValueName = document.getElementById('name');
-const inputValueEmail = document.getElementById('email');
-const inputValueTextArea = document.getElementById('message');
+const inputName = document.getElementById('name');
+const inputEmail = document.getElementById('email');
+const inputTextArea = document.getElementById('message');
 
 let objectDataForm = {
-  name: inputValueName.value,
-  email: inputValueEmail.value,
-  text: inputValueTextArea.value,
+  name: '',
+  email: '',
+  text: '',
 };
-localStorage.setItem('Object', JSON.stringify(objectDataForm));
 
 function getInputName() {
-  localStorage.setItem('Name', inputValueName.value);
+  // localStorage.setItem('Name', inputName.value);
+  objectDataForm.name = inputName.value;
+  localStorage.setItem('Object', JSON.stringify(objectDataForm));
 }
 
 function getInputEmail() {
-  localStorage.setItem('Email of the person', inputValueEmail.value);
+  objectDataForm.email = inputEmail.value;
+  localStorage.setItem('Object', JSON.stringify(objectDataForm));
 }
 
 function getInputTextArea() {
-  localStorage.setItem('Text entered', inputValueTextArea.value);
+  objectDataForm.text = inputTextArea.value;
+  localStorage.setItem('Object', JSON.stringify(objectDataForm));
 }
 
-// inputValueName.addEventListener('input', getInputName);
-// inputValueEmail.addEventListener('input', getInputEmail);
-// inputValueTextArea.addEventListener('input', getInputTextArea);
-inputValueName.value = localStorage.getItem('Name');
+inputName.addEventListener('input', getInputName);
+inputEmail.addEventListener('input', getInputEmail);
+inputTextArea.addEventListener('input', getInputTextArea);
+
+// function getInputTextArea() {
+//   localStorage.setItem('Text entered', inputTextArea.value);
+// }
+// inputEmail.addEventListener('input', getInputEmail);
+// inputTextArea.addEventListener('input', getInputTextArea);
+// inputName.value = localStorage.setItem('Name');
+//inputName.value = "holy shit"
+console.log(objectDataForm);
