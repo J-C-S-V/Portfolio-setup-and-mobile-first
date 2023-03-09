@@ -559,11 +559,32 @@ form.addEventListener('submit', (e) => {
   }
 });
 
+//Storage
+
 const inputValueName = document.getElementById('name');
 const inputValueEmail = document.getElementById('email');
 const inputValueTextArea = document.getElementById('message');
+
+let objectDataForm = {
+  name: inputValueName.value,
+  email: inputValueEmail.value,
+  text: inputValueTextArea.value,
+};
+localStorage.setItem('Object', JSON.stringify(objectDataForm));
+
 function getInputName() {
-  localStorage.setItem('Name of the person', inputValueName.value);
+  localStorage.setItem('Name', inputValueName.value);
 }
 
-inputValueName.addEventListener('input', getInputName);
+function getInputEmail() {
+  localStorage.setItem('Email of the person', inputValueEmail.value);
+}
+
+function getInputTextArea() {
+  localStorage.setItem('Text entered', inputValueTextArea.value);
+}
+
+// inputValueName.addEventListener('input', getInputName);
+// inputValueEmail.addEventListener('input', getInputEmail);
+// inputValueTextArea.addEventListener('input', getInputTextArea);
+inputValueName.value = localStorage.getItem('Name');
