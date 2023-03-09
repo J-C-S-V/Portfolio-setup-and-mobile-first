@@ -580,7 +580,7 @@ function getInputTextArea() {
   localStorage.setItem('Object', JSON.stringify(objectDataForm));
 }
 
-// Object with date
+// Object with data
 
 let objectDataForm = {
   name: '',
