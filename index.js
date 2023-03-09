@@ -559,8 +559,6 @@ form.addEventListener('submit', (e) => {
   }
 });
 
-/*********Local storage **************/
-
 const inputValueName = document.getElementById('name');
 const inputValueEmail = document.getElementById('email');
 const inputValueTextArea = document.getElementById('message');
