@@ -592,7 +592,7 @@ inputName.addEventListener('input', getInputName);
 inputEmail.addEventListener('input', getInputEmail);
 inputTextArea.addEventListener('input', getInputTextArea);
 
-let objectDataFormUpdated = JSON.parse(localStorage.getItem('Object'));
+const objectDataFormUpdated = JSON.parse(localStorage.getItem('Object'));
 
 inputName.value = objectDataFormUpdated.name;
 inputEmail.value = objectDataFormUpdated.email;
