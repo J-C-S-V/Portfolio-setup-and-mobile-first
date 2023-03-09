@@ -558,3 +558,15 @@ form.addEventListener('submit', (e) => {
     error.innerHTML = 'Are you using uppercase in the email field? 👀';
   }
 });
+
+/*********Local storage **************/
+
+const inputValueName = document.getElementById('name').value;
+const inputValueEmail = document.getElementById('email');
+const inputValueTextArea = document.getElementById('message');
+
+function getInputName() {
+  console.log(inputValueName);
+}
+
+getInputName();
