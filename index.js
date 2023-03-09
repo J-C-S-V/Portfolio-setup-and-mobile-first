@@ -121,7 +121,6 @@ const projectListObject = [
 const buttonProject1 = document.querySelector('.see-project');
 const body2 = document.querySelector('body');
 buttonProject1.addEventListener('click', () => {
-  // console.log('hello');
   body2.innerHTML = `
 <article class="modal-card">
 <h2 class="modal-card__h2">
@@ -544,7 +543,6 @@ ${projectListObject[3].description}
 
   const corssIconPopUpCard = document.querySelector('.modal-card__cancel');
   corssIconPopUpCard.addEventListener('click', () => {
-    // console.log('cross working');
     window.location.reload();
   });
 });
@@ -557,7 +555,6 @@ const error = document.querySelector('#error-message');
 const regexAZ = /[A-Z]/;
 
 form.addEventListener('submit', (e) => {
-  // console.log('Validation working');
   if (regexAZ.test(email.value)) {
     e.preventDefault();
     error.innerHTML = 'Are you using uppercase in the email field? 👀';
