@@ -565,14 +565,7 @@ const inputName = document.getElementById('name');
 const inputEmail = document.getElementById('email');
 const inputTextArea = document.getElementById('message');
 
-let objectDataForm = {
-  name: '',
-  email: '',
-  text: '',
-};
-
 function getInputName() {
-  // localStorage.setItem('Name', inputName.value);
   objectDataForm.name = inputName.value;
   localStorage.setItem('Object', JSON.stringify(objectDataForm));
 }
@@ -587,15 +580,21 @@ function getInputTextArea() {
   localStorage.setItem('Object', JSON.stringify(objectDataForm));
 }
 
+// Object with date
+
+let objectDataForm = {
+  name: '',
+  email: '',
+  text: '',
+};
+
 inputName.addEventListener('input', getInputName);
 inputEmail.addEventListener('input', getInputEmail);
 inputTextArea.addEventListener('input', getInputTextArea);
 
-// function getInputTextArea() {
-//   localStorage.setItem('Text entered', inputTextArea.value);
-// }
-// inputEmail.addEventListener('input', getInputEmail);
-// inputTextArea.addEventListener('input', getInputTextArea);
-// inputName.value = localStorage.setItem('Name');
-//inputName.value = "holy shit"
-console.log(objectDataForm);
+let objectDataFormUpdated = JSON.parse(localStorage.getItem('Object'));
+
+inputName.value = objectDataFormUpdated.name;
+inputEmail.value = objectDataFormUpdated.email;
+inputTextArea.value = objectDataFormUpdated.text;
+// console.log(objectDataFormUpdated);
