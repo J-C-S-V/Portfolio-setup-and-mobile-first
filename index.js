@@ -121,7 +121,6 @@ const projectListObject = [
 const buttonProject1 = document.querySelector('.see-project');
 const body2 = document.querySelector('body');
 buttonProject1.addEventListener('click', () => {
-  // console.log('hello');
   body2.innerHTML = `
 <article class="modal-card">
 <h2 class="modal-card__h2">
@@ -222,7 +221,6 @@ ${projectListObject[0].description}
 
   const corssIconPopUpCard = document.querySelector('.modal-card__cancel');
   corssIconPopUpCard.addEventListener('click', () => {
-    // console.log('cross working');
     window.location.reload();
   });
 });
@@ -230,7 +228,6 @@ ${projectListObject[0].description}
 const buttonProject2 = document.querySelector('.see-project2');
 const body3 = document.querySelector('body');
 buttonProject2.addEventListener('click', () => {
-  // console.log('hello');
   body3.innerHTML = `
 <article class="modal-card">
 <h2 class="modal-card__h2">
@@ -332,7 +329,6 @@ ${projectListObject[1].description}
 
   const corssIconPopUpCard = document.querySelector('.modal-card__cancel');
   corssIconPopUpCard.addEventListener('click', () => {
-    // console.log('cross working');
     window.location.reload();
   });
 });
@@ -340,7 +336,6 @@ ${projectListObject[1].description}
 const buttonProject3 = document.querySelector('.see-project3');
 const body4 = document.querySelector('body');
 buttonProject3.addEventListener('click', () => {
-  // console.log('hello');
   body4.innerHTML = `
 <article class="modal-card">
 <h2 class="modal-card__h2">
@@ -441,7 +436,6 @@ ${projectListObject[2].description}
 
   const corssIconPopUpCard = document.querySelector('.modal-card__cancel');
   corssIconPopUpCard.addEventListener('click', () => {
-    // console.log('cross working');
     window.location.reload();
   });
 });
@@ -449,7 +443,6 @@ ${projectListObject[2].description}
 const buttonProject4 = document.querySelector('.see-project4');
 const body5 = document.querySelector('body');
 buttonProject4.addEventListener('click', () => {
-  // console.log('hello');
   body5.innerHTML = `
 <article class="modal-card">
 <h2 class="modal-card__h2">
@@ -550,7 +543,18 @@ ${projectListObject[3].description}
 
   const corssIconPopUpCard = document.querySelector('.modal-card__cancel');
   corssIconPopUpCard.addEventListener('click', () => {
-    // console.log('cross working');
     window.location.reload();
   });
+});
+
+const form = document.querySelector('.form-container');
+const email = document.querySelector('#email');
+const error = document.querySelector('#error-message');
+const regexAZ = /[A-Z]/;
+
+form.addEventListener('submit', (e) => {
+  if (regexAZ.test(email.value)) {
+    e.preventDefault();
+    error.innerHTML = 'Are you using uppercase in the email field? 👀';
+  }
 });

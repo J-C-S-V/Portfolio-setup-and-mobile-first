@@ -255,9 +255,9 @@
       </section>
       <section class="form-container-2">
         <form
-          class="form-container"
           action="https://formspree.io/f/mbjeozld"
           method="post"
+          class="form-container"
         >
           <input
             type="text"
@@ -282,9 +282,12 @@
             maxlength="500"
             required
           ></textarea>
-          <button class="contact-form-button" type="submit">
-            Get in touch
-          </button>
+          <div class="form-button-wrapper">
+            <button class="contact-form-button" type="submit">
+              Get in touch
+            </button>
+            <span class="error-message" id="error-message"></span>
+          </div>
           <span class="bottom-line"></span>
         </form>
       </section>
