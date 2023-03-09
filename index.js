@@ -222,7 +222,6 @@ ${projectListObject[0].description}
 
   const corssIconPopUpCard = document.querySelector('.modal-card__cancel');
   corssIconPopUpCard.addEventListener('click', () => {
-    // console.log('cross working');
     window.location.reload();
   });
 });
@@ -230,7 +229,6 @@ ${projectListObject[0].description}
 const buttonProject2 = document.querySelector('.see-project2');
 const body3 = document.querySelector('body');
 buttonProject2.addEventListener('click', () => {
-  // console.log('hello');
   body3.innerHTML = `
 <article class="modal-card">
 <h2 class="modal-card__h2">
@@ -332,7 +330,6 @@ ${projectListObject[1].description}
 
   const corssIconPopUpCard = document.querySelector('.modal-card__cancel');
   corssIconPopUpCard.addEventListener('click', () => {
-    // console.log('cross working');
     window.location.reload();
   });
 });
@@ -340,7 +337,6 @@ ${projectListObject[1].description}
 const buttonProject3 = document.querySelector('.see-project3');
 const body4 = document.querySelector('body');
 buttonProject3.addEventListener('click', () => {
-  // console.log('hello');
   body4.innerHTML = `
 <article class="modal-card">
 <h2 class="modal-card__h2">
@@ -441,7 +437,6 @@ ${projectListObject[2].description}
 
   const corssIconPopUpCard = document.querySelector('.modal-card__cancel');
   corssIconPopUpCard.addEventListener('click', () => {
-    // console.log('cross working');
     window.location.reload();
   });
 });
@@ -449,7 +444,6 @@ ${projectListObject[2].description}
 const buttonProject4 = document.querySelector('.see-project4');
 const body5 = document.querySelector('body');
 buttonProject4.addEventListener('click', () => {
-  // console.log('hello');
   body5.innerHTML = `
 <article class="modal-card">
 <h2 class="modal-card__h2">
