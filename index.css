@@ -788,8 +788,6 @@ hr {
   background-color: red;
   color: white;
   font-size: 12px;
-  /* position: relative; */
-  /* bottom: 7rem; */
   align-self: flex-end;
   width: 40%;
   border: none;
