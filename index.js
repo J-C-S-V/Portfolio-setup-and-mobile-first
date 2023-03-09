@@ -554,3 +554,19 @@ ${projectListObject[3].description}
     window.location.reload();
   });
 });
+
+const form = document.querySelector('.form-container');
+const nameField = document.querySelector('#name');
+const email = document.querySelector('#email');
+const submitButton = document.querySelector('.contact-form-button');
+const error = document.querySelector('#error-message');
+const regexAZ = /[A-Z]/;
+
+form.addEventListener('submit', (e) => {
+  // console.log('Validation working');
+  if (regexAZ.test(email.value)) {
+    e.preventDefault();
+    error.innerHTML = 'Are you using uppercase in the email field? 👀';
+    console.log('Error');
+  }
+});
