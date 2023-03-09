@@ -564,3 +564,8 @@ form.addEventListener('submit', (e) => {
 const inputValueName = document.getElementById('name');
 const inputValueEmail = document.getElementById('email');
 const inputValueTextArea = document.getElementById('message');
+function getInputName() {
+  localStorage.setItem('Name of the person', inputValueName.value);
+}
+
+inputValueName.addEventListener('input', getInputName);
