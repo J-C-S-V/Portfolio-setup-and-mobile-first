@@ -590,7 +590,7 @@ function getInputTextArea() {
 
 inputName.addEventListener('input', getInputName);
 inputEmail.addEventListener('input', getInputEmail);
-inputTextArea.addEventListener('input', getInputTextArea);
+inputTextArea.addEventListener('input', getInputTextArea
 
 const objectDataFormUpdated = JSON.parse(localStorage.getItem('Object'));
 
